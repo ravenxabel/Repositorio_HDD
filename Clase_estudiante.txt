@@ -1,7 +1,7 @@
 from clase_persona import Persona
 
 class Estudiante(Persona):
-    curso = 'en blanco'
+    curso = 'Ingenieria de Sistemas - Local Abel'
 
     def __init__(self, nombre, edad, curso, universidad):
         super().__init__(nombre, edad)
