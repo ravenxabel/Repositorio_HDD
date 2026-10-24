@@ -1,7 +1,7 @@
 from clase_persona import Persona
 from clase_estudiante import Estudiante
 
-persona = Persona("Modificacion en Rama Master Remoto", 22)
+persona = Persona("Solucionado por Ramiro Castaneda del Grupo 7", 21)
 print(persona)
 persona.nombre = "Felipe Carrasco"
 persona.edad = 22
