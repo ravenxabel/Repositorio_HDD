@@ -1,15 +1,15 @@
 from clase_persona import Persona
 
 class Estudiante(Persona):
-    curso = 'en blanco'
+    curso = 'Herramientas de Desarrollo - Solucionado por Abel Sandoval del Grupo 7'
 
     def __init__(self, nombre, edad, curso, universidad):
         super().__init__(nombre, edad)
         self.curso = universidad
         self.universidad = curso
-    
+
     def __str__(self):
         return f"{super().__str__()} - {self.curso}- {self.universidad}"
 
-# estudiante1 = Estudiante("Raúl Ortiz", 45, "R Studio")
+# estudiante1 = Estudiante("RaÃºl Ortiz", 45, "R Studio")
 # print(estudiante1)
